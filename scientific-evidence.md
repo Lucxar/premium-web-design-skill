@@ -120,6 +120,24 @@
 
 **Animation timing studies:** Optimal 150-450ms. Ease-out + 400ms = most fluid perception (CHI 2016). Delays >450ms feel like system lag.
 
+## Copy & Content
+
+**Mehrabian & Reed (1968)** -- Concreteness and specificity. Concrete, specific words are recalled 1.5-2x more reliably than abstract words. "Deploys in 38 seconds" > "Fast deployment."
+
+**Nielsen (2008)** -- How Little Do Users Read? Users read approximately 20% of text on an average web page. Shorter copy = higher percentage actually read. Premium copy must be brutally concise.
+
+**Ogilvy (confirmed by modern eye-tracking)** -- Headlines with specific numbers get 36% more engagement than headlines without numbers. Quantified claims build credibility.
+
+**BJ Fogg Behavior Model** -- Behavior = Motivation × Ability × Trigger. CTAs with specific action verbs ("Start building") reduce perceived effort (increase Ability) vs generic CTAs ("Get started").
+
+**Keller & Lehmann (2006)** -- Brands and Branding. Consistent brand voice across touchpoints increases brand equity scores by 23% average.
+
+## First Impression Layout
+
+**Djamasbi et al. (2010)** -- Generation Y, web design, and eye tracking. Large hero images, minimal text, and left-positioned navigation captured the most fixations. Centered layouts received fewer initial fixations than left-weighted layouts.
+
+**Seckler et al. (2015)** -- Trust and Distrust on the Web. High prototypicality (expected layouts) increases trust, but moderate novelty within expected structures maximizes both trust AND engagement. The sweet spot: familiar structure, unique execution.
+
 ## Cross-Cultural Considerations
 
 **Reinecke & Gajos (2014)** -- CHI. 40,000 participants, 2.4M ratings, 43 countries. Women prefer more colorful + higher complexity than men. Optimal complexity varies by demographic. Geographic proximity predicts aesthetic similarity.

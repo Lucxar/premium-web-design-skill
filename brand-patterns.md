@@ -4,6 +4,9 @@ How the world's most premium brands implement web design. Use these as concrete 
 
 ## Apple.com -- The Gold Standard
 
+**Style palette:** Cool Tech / Bold Dark
+**Hero pattern:** Product Spotlight -- full-bleed product image on solid black/white. Single word or short phrase headline (80-96px Semibold). No subheadline on product launches. CTAs are blue text links ("Learn more" + "Buy"), not buttons.
+
 **Typography:** San Francisco (SF Pro Display >=20pt, SF Pro Text <20pt). 9 weights, auto optical-size switching. Hero: Semibold/Bold 48-96px. Body: Regular 17px, line-height 1.47. CSS: `-apple-system, system-ui, BlinkMacSystemFont`.
 
 **Colors:** #0066CC (links/CTAs, used sparingly), #1D1D1F (text), #F5F5F7 (light sections), #000000 (dark sections). Alternates light/dark sections for rhythm.
@@ -13,6 +16,9 @@ How the world's most premium brands implement web design. Use these as concrete 
 **Key Pattern:** One feature per viewport section. Product launch pages = immersive single-column cinematic. Regular pages = grid-based, lighter backgrounds. "If it doesn't serve the product story, it doesn't exist."
 
 ## Tesla.com -- Quiet UI
+
+**Style palette:** Bold Dark
+**Hero pattern:** Full-bleed Media -- full-viewport auto-playing video. Model name centered in thin sans-serif. Dual CTA at viewport bottom. Product is the hero; UI disappears completely.
 
 **Layout:** Modular vertical stack. Full-bleed auto-playing video hero. Each product tile = micro-landing page.
 
@@ -24,6 +30,9 @@ How the world's most premium brands implement web design. Use these as concrete 
 
 ## Stripe.com -- Developer Premium
 
+**Style palette:** Colorful Modern
+**Hero pattern:** Dashboard/UI -- split layout, bold benefit headline left on dark bg (#0A2540), animated gradient right. Screenshot/code below. Headline is benefit-focused, not product-named.
+
 **Gradient:** miniGL custom WebGL (~10KB, ~800 lines). GPU-accelerated. CSS vars for colors. ScrollObserver disables when off-viewport. Easter egg: Konami Code reveals controls.
 
 **Animation Strategy (4 tiers):** CSS transitions > CSS keyframes > Web Animations API (~5KB) > requestAnimationFrame. All under 500ms, custom cubic-bezier, `will-change` + transform/opacity only.
@@ -33,6 +42,9 @@ How the world's most premium brands implement web design. Use these as concrete 
 **Key Pattern:** Engineering-as-craft. CSS-drawn devices (<1KB, resolution-independent). Navigation morphing dropdown (`transform` + `perspective: 2000px`). Technical depth without visual complexity.
 
 ## Linear.app -- Modern SaaS Standard
+
+**Style palette:** Cool Tech (dark variant)
+**Hero pattern:** Split -- dark background, large left-aligned headline with CSS gradient text effect. App screenshot below, partially cropped at viewport edge. Centered layout on mobile.
 
 **Color System:** LCH color space (perceptually uniform). 3 inputs (base, accent, contrast) replace 98 variables. Dark-first design. Brand: #F4F5F8 (Mercury White), #222326 (Nordic Gray).
 
@@ -52,6 +64,9 @@ How the world's most premium brands implement web design. Use these as concrete 
 
 ## Rolex.com -- Digital Exclusivity
 
+**Style palette:** Warm Premium / Minimal Editorial
+**Hero pattern:** Editorial -- full-bleed editorial photography. Watch is focal point. Headline positioned as editorial caption, not marketing copy. No CTA button; the imagery IS the invitation.
+
 **Colors:** #A37E2C (gold), #006039 (green). Unchanged since 2002. Gold = prestige, green = prosperity.
 
 **Typography:** Garamond (serif, bold, uppercase logo). Serif throughout = timeless authority.
@@ -70,6 +85,9 @@ How the world's most premium brands implement web design. Use these as concrete 
 
 ## Aesop -- Apothecary Calm
 
+**Style palette:** Minimal Editorial
+**Hero pattern:** Asymmetric -- product image dominates (65%), text is minimal sidebar. Muted earth tones. No CTA button; the product image IS the invitation.
+
 **Typography:** Optima (logo, humanist serif) + Suisse Int'l (web, Swiss sans-serif) + Neue Helvetica (packaging). "Balances authority with restraint."
 
 **Colors:** #FFEFB5 (muted yellow bg), #544D4B (dark brown text), #D3D1D4 (lavender gray). Earthy, calm tones.
@@ -80,6 +98,9 @@ How the world's most premium brands implement web design. Use these as concrete 
 
 ## Vercel.com -- Performance as Design
 
+**Style palette:** Cool Tech
+**Hero pattern:** Dashboard/UI -- dark background, single-line headline, terminal-style code snippet below. Hero is functional, not decorative. Performance IS the aesthetic.
+
 **Typography:** Geist Sans (UI/body, Swiss geometric) + Geist Mono (code/terminals). Purpose-built for developer interfaces.
 
 **Colors:** 10 color scales. Tiered: 1-3 backgrounds, 4-6 borders, 7-8 high-contrast, 9-10 text. P3 wide-gamut support.
@@ -89,6 +110,9 @@ How the world's most premium brands implement web design. Use these as concrete 
 **Key Pattern:** "A slow dashboard with beautiful animations is worse than a fast dashboard with none." Minimized animations. Optimistic UI. Skeleton screens. Empty states show copyable terminal commands, not decorative illustrations.
 
 ## Airbnb.com -- Trust-Building
+
+**Style palette:** Warm Premium / Colorful Modern
+**Hero pattern:** Split -- search bar as hero focal point (functional hero). Photography dominates. Trust signals (ratings, reviews) immediately visible. The hero IS the product interface.
 
 **Typography:** Airbnb Cereal (custom, Dalton Maag). Taller x-height. Scalable stroke width. One font for everything: web, apps, billboards. "90% of UI is text."
 

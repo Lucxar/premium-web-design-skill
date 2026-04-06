@@ -2,7 +2,7 @@
 
 **Transform any website into a premium, Apple-quality web experience.**
 
-An [Agent Skill](https://agentskills.io) that turns your AI coding assistant into a premium web design expert. Based on 80+ peer-reviewed scientific studies, analysis of 11 premium brands (Apple, Stripe, Tesla, Porsche, Rolex, Linear, Airbnb, Bang & Olufsen, Aesop, Notion, Vercel), and current industry best practices (2024-2026).
+An [Agent Skill](https://agentskills.io) that turns your AI coding assistant into a premium web design expert. Based on 80+ peer-reviewed scientific studies, analysis of 10 premium brands (Apple, Stripe, Tesla, Porsche, Rolex, Linear, Airbnb, Bang & Olufsen, Aesop, Vercel), and current industry best practices (2024-2026).
 
 ## Installation
 
@@ -33,6 +33,10 @@ When activated, your AI assistant becomes a premium web design expert that:
 - **Provides specific values** -- no vague advice like "use good colors", instead: exact hex codes, pixel values, CSS custom properties, easing curves
 - **Includes ready-to-use code** -- copy-paste CSS design tokens, animation patterns, scroll reveals, hover effects
 - **Catches anti-patterns** -- flags 15 common mistakes that destroy premium feel (generic stock photos, linear easing, pop-ups in first 5 seconds, etc.)
+- **Avoids AI-generated aesthetics** -- identifies and avoids 10 common AI tells (purple gradients, uniform border-radius, same hero layout, identical card grids)
+- **Varies design per project** -- 10 genre-based font pairings, 5 design style palettes, 6 hero variants prevent cookie-cutter output
+- **Guides content flow** -- section transitions, rhythm patterns, content pacing, and the "breathing rule" create cohesive pages
+- **Writes premium copy** -- headline formulas, tone of voice rules, and action-specific CTA microcopy
 
 ## When It Activates
 
@@ -50,10 +54,10 @@ Or invoke it directly: `/premium-web-design`
 
 | File | Content |
 |------|---------|
-| `SKILL.md` | Core expertise: 10 Laws of Premium Design, decision framework, landing page blueprint, CSS patterns, anti-patterns, verification checklist |
-| `design-tokens.md` | Complete copy-paste CSS custom properties system (typography, spacing, colors, shadows, transitions, easing curves) |
-| `brand-patterns.md` | Design pattern analysis of 11 premium brands with specific fonts, hex codes, and techniques |
-| `scientific-evidence.md` | 80+ peer-reviewed studies condensed into actionable statistics and findings |
+| `SKILL.md` | Core expertise: 10 Laws, 6 hero variants, section flow system, premium copy patterns, AI-tell avoidance, landing page blueprint, CSS patterns, anti-patterns, verification checklist |
+| `design-tokens.md` | Copy-paste CSS custom properties, 10 genre-based font pairings, 5 design style palettes (Warm Premium, Cool Tech, Bold Dark, Minimal Editorial, Colorful Modern) |
+| `brand-patterns.md` | Design pattern analysis of 11 premium brands with hero patterns, style palette tags, specific fonts, hex codes, and techniques |
+| `scientific-evidence.md` | 80+ peer-reviewed studies including copy/content research and first-impression layout studies |
 | `animation-cookbook.md` | Ready-to-use animation code (CSS, GSAP, Framer Motion) with timing guides and easing references |
 
 ## The 10 Laws of Premium Web Design
@@ -83,7 +87,7 @@ Or invoke it directly: `/premium-web-design`
 
 ## Premium Brands Analyzed
 
-Apple, Tesla, Stripe, Linear, Porsche, Rolex, Bang & Olufsen, Aesop, Notion, Vercel, Airbnb -- with specific hex codes, font names, animation techniques, and what makes each feel premium.
+Apple, Tesla, Stripe, Linear, Porsche, Rolex, Bang & Olufsen, Aesop, Vercel, Airbnb -- with specific hex codes, font names, hero patterns, animation techniques, and what makes each feel premium.
 
 ## Example Usage
 

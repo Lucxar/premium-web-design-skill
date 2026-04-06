@@ -107,14 +107,28 @@ Copy-paste-ready CSS custom properties for premium web design. Use these as the 
 | Body | 16-18px | 16px | 1.5-1.8 | normal |
 | UPPERCASE | -- | -- | -- | 0.05-0.15em |
 
-## Premium Font Pairings
+## Premium Font Pairings by Genre
 
-| Heading | Body | Character |
-|---------|------|-----------|
-| Playfair Display | Inter | Elegant editorial |
-| Cormorant Garamond | DM Sans | Refined luxury |
-| DM Serif Display | DM Sans | Modern warmth |
-| Inter (600-700) | Inter (400) | Clean tech |
+Choose based on project genre. **NEVER default to the first row for every project** -- that is an AI tell.
+
+| Genre | Heading | Body | Best For |
+|-------|---------|------|----------|
+| **Elegant editorial** | Playfair Display | Inter | Fashion, wine, luxury goods |
+| **Refined luxury** | Cormorant Garamond | DM Sans | Jewelry, hospitality, spa |
+| **Modern warmth** | DM Serif Display | DM Sans | Food, lifestyle, wellness |
+| **Clean tech** | Inter (600-700) | Inter (400) | SaaS, developer tools |
+| **Bold authority** | Space Grotesk | Inter | Fintech, enterprise, B2B |
+| **Swiss minimal** | Neue Montreal / Geist Sans | System UI stack | Portfolios, agencies, studios |
+| **Editorial modern** | Sora | Source Serif 4 | Magazines, blogs, media |
+| **Playful premium** | Cabinet Grotesk | General Sans | Consumer apps, startups |
+| **Dark luxury** | Bebas Neue (caps only) | Manrope | Automotive, nightlife, audio |
+| **Classic authority** | EB Garamond | Lato | Legal, finance, education |
+
+### Font Selection Rule
+1. Identify the project's genre from the table above
+2. Use the recommended pairing OR one from an adjacent genre
+3. For dark themes, prefer geometric sans-serifs (Space Grotesk, Geist, Inter) over serifs
+4. For editorial/luxury, serif headings create authority that sans-serif cannot match
 
 ## Container & Grid
 
@@ -148,7 +162,8 @@ background: linear-gradient(135deg, #F9F6F4 0%, #EFEAE5 50%, #F5F0E6 100%);
 /* Dark mode atmospheric */
 background: linear-gradient(180deg, #121212 0%, #1A1A2E 50%, #16213E 100%);
 
-/* Stripe-inspired mesh gradient */
+/* Stripe-inspired mesh gradient -- USE ONLY for brand-specific projects with purple identity.
+   WARNING: Purple mesh gradients are the #1 AI tell of 2024-2026. Do NOT use as a default. */
 background: radial-gradient(at 20% 80%, rgba(76,110,245,0.15) 0%, transparent 50%),
             radial-gradient(at 80% 20%, rgba(159,122,234,0.12) 0%, transparent 50%),
             #0A0A0F;
@@ -164,3 +179,55 @@ background: radial-gradient(at 20% 80%, rgba(76,110,245,0.15) 0%, transparent 50
 | Warm Grey | #B8ADA0 | Supporting text, borders |
 | Charcoal | #2F2F2F | Primary dark (luxury alternative) |
 | Near Black | #1A1A1A | Rich dark background |
+
+## Design Style Palettes
+
+Choose based on brand personality. **NEVER default to Warm Premium for every project.**
+
+### Warm Premium (Approachable Luxury)
+```css
+--bg-primary: #F9F6F4; --bg-secondary: #F5F0E6; --bg-card: #FFFFFF;
+--text-primary: #2F2F2F; --text-secondary: #998B7E;
+--accent: #D4AF37; --shadow-tint: rgba(153,139,126,0.12);
+/* Best for: Luxury goods, hospitality, fashion, beauty */
+```
+
+### Cool Tech (Precise, Modern)
+```css
+/* Light mode */
+--bg-primary: #FAFAFA; --bg-secondary: #F5F5F5; --bg-card: #FFFFFF;
+--text-primary: #171717; --text-secondary: #525252;
+--accent: #0066FF; --border: #E5E5E5;
+/* Dark mode */
+--bg-primary: #0A0A0F; --bg-secondary: #141414; --bg-card: #1A1A1A;
+--text-primary: #EDEDED; --text-secondary: #A0A0A0;
+--accent: #3B82F6; --border: #2A2A2A;
+/* Best for: SaaS, developer tools, fintech, analytics */
+```
+
+### Bold Dark (Confident, Dramatic)
+```css
+--bg-primary: #0A0A0A; --bg-secondary: #111111; --bg-card: #1A1A1A;
+--text-primary: #F5F5F5; --text-secondary: #888888;
+--accent: #FF3B30; --border: #222222;
+/* Cards: no shadow, 1px solid var(--border). White-as-accent works here. */
+/* Best for: Automotive, audio, gaming, sports */
+```
+
+### Minimal Editorial (Restrained, Intellectual)
+```css
+--bg-primary: #FFFFFF; --bg-secondary: #F7F7F5; --bg-card: transparent;
+--text-primary: #1A1A1A; --text-secondary: #666666;
+--accent: #1A1A1A; --accent-warm: #C5A572;
+/* Cards: no background, separated by hairline rules (1px #E0E0E0) */
+/* Best for: Beauty (Aesop-style), architecture, editorial, portfolio */
+```
+
+### Colorful Modern (Energetic, Approachable)
+```css
+--bg-primary: #FFFFFF; --bg-secondary: #F6F9FC; --bg-card: #FFFFFF;
+--text-primary: #0A2540; --text-secondary: #425466;
+--accent: /* brand-primary vibrant -- e.g., Stripe #635BFF, Figma #A259FF */;
+/* Cards: white with colored left-border or top-border accent */
+/* Best for: Creative tools, marketplaces, consumer platforms */
+```
